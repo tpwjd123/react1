@@ -1,0 +1,125 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+.bottom-nav{
+  position: fixed !important;
+  top: 647px !important;
+  width: 360px;
+  left: 50% !important;
+  transform: translate(-50%);
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden auto;
+}
+.header {
+  position: relative;
+  width: 360px;
+  height: 48px;
+  margin: 0 0 0 0;
+  background: #8130f2;
+  z-index: 120;
+}
+.ego-shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 157px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 79px);
+  color: #eae8eb;
+  font-family: Pretendard, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 123;
+}
+.icons {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 12px;
+  left: 16px;
+  z-index: 121;
+  overflow: hidden;
+}
+.menu {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0 2px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-28/BJiYafrNr7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 122;
+  overflow: hidden;
+}
+.banner {
+  position: relative;
+  width: 360px;
+  height: 232px;
+  margin: 0 0 0 0;
+  overflow: hidden;
+}
+.image {
+  position: absolute;
+  width: 360px;
+  height: 204px;
+  top: 0;
+  left: 0;
+  background: #d9d9d9;
+  z-index: 1;
+}
+.empty {
+  position: absolute;
+  width: 372px;
+  height: 204px;
+  top: 0;
+  left: -6px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-28/0EtOMhJqE8.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 2;
+}
+.block {
+  position: absolute;
+  width: 208px;
+  height: 78px;
+  top: 147px;
+  right: 23px;
+  font-size: 0px;
+  background: #ffffff;
+  z-index: 3;
+  overflow: hidden;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+/* ... 나머지 CSS 내용은 파일이 너무 커서 생략 ... */
